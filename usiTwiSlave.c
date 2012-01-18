@@ -506,7 +506,7 @@ ISR( USI_OVERFLOW_VECTOR )
     // Address mode: check address and send ACK (and next USI_SLAVE_SEND_DATA) if OK,
     // else reset USI
     case USI_SLAVE_CHECK_ADDRESS:
-      if ( ( USIDR == 0 ) || ( ( USIDR >> 1 ) == slaveAddress) )
+      if ( ( USIDR >> 1 ) == slaveAddress )
       {
           if ( USIDR & 0x01 )
         {
