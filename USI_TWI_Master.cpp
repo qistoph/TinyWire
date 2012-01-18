@@ -20,7 +20,7 @@
 *			length should be these two bytes plus the number of bytes to read.
 ****************************************************************************/
 #include <avr/interrupt.h>
-#define F_CPU 1000000UL	      // Sets up the default speed for delay.h
+//#define F_CPU 1000000UL	      // Sets up the default speed for delay.h
 #include <util/delay.h>
 #include <avr/io.h>
 #include "USI_TWI_Master.h"
