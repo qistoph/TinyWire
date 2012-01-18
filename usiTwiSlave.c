@@ -180,6 +180,8 @@ Change Activity:
 
 #define SET_USI_TO_TWI_START_CONDITION_MODE( ) \
 { \
+  /* set SDA as input */ \
+  DDR_USI &= ~( 1 << PORT_USI_SDA ); \
   USICR = \
        /* enable Start Condition Interrupt, disable Overflow Interrupt */ \
        ( 1 << USISIE ) | ( 0 << USIOIE ) | \
