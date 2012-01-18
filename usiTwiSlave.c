@@ -70,8 +70,8 @@ Change Activity:
 #  define DDR_USI             DDRB
 #  define PORT_USI            PORTB
 #  define PIN_USI             PINB
-#  define PORT_USI_SDA        PB0
-#  define PORT_USI_SCL        PB2
+#  define PORT_USI_SDA        PORTB0
+#  define PORT_USI_SCL        PORTB2
 #  define PIN_USI_SDA         PINB0
 #  define PIN_USI_SCL         PINB2
 #  define USI_START_COND_INT  USISIF //was USICIF jjg
