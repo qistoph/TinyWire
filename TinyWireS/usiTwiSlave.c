@@ -55,8 +55,8 @@ Change Activity:
 #  define DDR_USI             DDRB
 #  define PORT_USI            PORTB
 #  define PIN_USI             PINB
-#  define PORT_USI_SDA        PB5
-#  define PORT_USI_SCL        PB7
+#  define PORT_USI_SDA        PORTB5
+#  define PORT_USI_SCL        PORTB7
 #  define PIN_USI_SDA         PINB5
 #  define PIN_USI_SCL         PINB7
 #  define USI_START_COND_INT  USISIF
